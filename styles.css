@@ -1,0 +1,16 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 90vw;
+    height: auto;
+    margin: auto;
+}
+
+.inner-box {
+    border: 2px solid gray;
+    height: 400px;
+    width: 100%;
+    max-width: 500px;
+    margin: 25px auto 25px auto;
+}
