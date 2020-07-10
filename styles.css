@@ -11,6 +11,10 @@
     display: none;
 }
 
+.inner-box > .mobile {
+    display: block;
+}
+
 .inner-box {
     border: 2px solid red;
     height: 400px;
