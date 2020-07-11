@@ -1,10 +1,11 @@
 .box {
     display: flex;
     flex-wrap: wrap;
-    width: 90vw;
+    width: 95vw;
     height: auto;
     margin: auto;
-    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
 }
 
 .inner-box > .desktop {
@@ -16,18 +17,117 @@
 }
 
 .inner-box {
-    border: 2px solid red;
     height: 400px;
     width: 100%;
-    margin: 25px auto 25px auto
+    max-width: 400px;
+    margin: 20px;
+    box-shadow: 2px 2px 6px rgb(168, 168, 168),
+    4px 4px 8px rgb(192, 192, 192),
+    -2px 2px 6px rgb(168, 168, 168),
+    -4px 4px 8px rgb(204, 204, 204);
+    
+}
+
+.inner-top {
+    background-color: rgba(162, 255, 22, 0.514);
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-bottom {
+    background-color: rgba(157, 105, 194, 0.7);
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-text {
+    font-size: 1.2em;
+    height: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.inner-text > p {
+    
+}
+
+.inner-top > img {
+    width: 98%;
+    height: 98%;
+}
+
+.inner-box:hover > .inner-top {
+    animation: shrink 0.8s forwards 1;
+}
+
+.inner-box:hover > .inner-top > img {
+    animation: imgshrink 0.8s forwards 1;
+}
+.inner-box > .inner-top {
+    animation: grow 0.8s backwards 1;
+}
+
+.inner-box:hover > .inner-text {
+    animation: textgrow 0.8s forwards 1;
+}
+
+.inner-box > .inner-text {
+    animation: textshrink 0.8s backwards 1;
+}
+
+@keyframes shrink {
+    from {height: 100%;}
+    to {height: 0%; display: none;}
+}
+
+@keyframes grow {
+    from {height: 0%;}
+    to {height: 75%; display: flex}
+}
+
+@keyframes textgrow {
+    from {height: 0;}
+    to {height: 75%;}
+}
+
+@keyframes textshrink {
+    from {height: 75%;}
+    to {height: 0%;}
+}
+
+.project-title {
+
 }
 
 /* Desktop */
 @media only screen and (min-width: 600px) {
     .box {
-        background-color: rgb(190, 190, 255);
+        background-color: rgb(255, 255, 255);
 
     }
+
+    .inner-box {
+        max-width: 400px;
+    }
+
+    .invisible-box {
+        border: 1px solid orange;
+        width: 400px;
+        height: 10px;
+        margin: 20px;
+    }
+
     .inner-box > .mobile {
         display: none;
     }
@@ -35,4 +135,7 @@
     .inner-box > .desktop {
         display: block;
     }
+
+
+
 }
