@@ -1,186 +1,207 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-    background-color: rgb(235, 235, 235);
-    margin: 0;
+  background-color: rgb(235, 235, 235);
+  margin: 0;
 }
 
 .box {
-    display: flex;
-    flex-wrap: wrap;
-    width: 95vw;
-    height: auto;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(235, 235, 235);
-    background-image: url(asfalt.png)
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 440px);
+  width: 95vw;
+  height: auto;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  background-image: url(asfalt.png);
 }
 
 .inner-box {
-    height: 400px;
-    width: 100%;
-    max-width: 400px;
-    margin: 20px;
-    background-color: rgba(7, 27, 63, 0.918);
-    box-shadow: 2px 2px 6px rgb(168, 168, 168),
-    4px 4px 8px rgb(192, 192, 192),
-    -2px 2px 6px rgb(168, 168, 168),
-    -4px 4px 8px rgb(204, 204, 204);
+  height: 400px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  background-color: rgba(7, 27, 63, 0.918);
+  box-shadow: 2px 2px 6px rgb(168, 168, 168), 4px 4px 8px rgb(192, 192, 192),
+    -2px 2px 6px rgb(168, 168, 168), -4px 4px 8px rgb(204, 204, 204);
 }
 
 .inner-top {
-    background-color: rgba(128, 126, 126, 0.589);
-    width: 100%;
-    height: 75%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgba(128, 126, 126, 0.589);
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .inner-bottom {
-    background-color: rgba(157, 105, 194, 0.7);
-    width: 100%;
-    height: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 1.6em;
-    text-shadow: 1px 1px black;
+  background-color: rgba(157, 105, 194, 0.7);
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.6em;
+  text-shadow: 1px 1px black;
 }
 
 .inner-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 0%;
 }
 
 .inner-paragraph {
-    height: 66.67%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 1.3em;
-    padding: 20px;
+  height: 66.67%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3em;
+  padding: 20px;
 }
 
 .inner-link {
-    height: 33.33%;
-    width: 100%;
-    margin: 0;
+  height: 33.33%;
+  width: 100%;
+  margin: 0;
 }
 
 .inner-link > a {
-    background-color: lightcoral;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: white;
-    font-size: 1.5em;
+  background-color: lightcoral;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
 }
 
 .inner-link > a > div {
-    background-color: rgb(22, 255, 177);
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+  background-color: rgb(22, 255, 177);
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .inner-link > a > div:hover {
-    color: white;
-    background-color: rgb(119, 255, 248);
-    box-shadow: 5px 5px 10px teal;
+  color: white;
+  background-color: rgb(119, 255, 248);
+  box-shadow: 5px 5px 10px teal;
 }
 
-
-
 .inner-top > img {
-    width: 98%;
-    height: 98%;
+  width: 98%;
+  height: 98%;
 }
 
 /* change picture div size */
 .inner-box:hover > .inner-top {
-    animation: shrink ease-in-out 0.5s forwards 1;
+  animation: shrink ease-in-out 0.5s forwards 1;
 }
 
 .inner-box > .inner-top {
-    animation: grow ease-in-out 0.5s backwards 1;
-    animation-delay: 0.25s;
+  animation: grow ease-in-out 0.5s backwards 1;
+  animation-delay: 0.25s;
 }
 
 @keyframes shrink {
-    from {height: 75%; opacity: 1;}
-    to {height: 0%; opacity: 0;}
+  from {
+    height: 75%;
+    opacity: 1;
+  }
+  to {
+    height: 0%;
+    opacity: 0;
+  }
 }
 
 @keyframes grow {
-    from {height: 0%; opacity: 0;}
-    to {height: 75%; opacity: 1}
+  from {
+    height: 0%;
+    opacity: 0;
+  }
+  to {
+    height: 75%;
+    opacity: 1;
+  }
 }
 
 @keyframes textgrow {
-    from {height: 0%;}
-    to {height: 75%;}
+  from {
+    height: 0%;
+  }
+  to {
+    height: 75%;
+  }
 }
 
 @keyframes textshrink {
-    from {height: 75%;}
-    to {height: 0%;}
+  from {
+    height: 75%;
+  }
+  to {
+    height: 0%;
+  }
 }
 
 /* change p color and a color + size for initially hidden div*/
 .inner-box:hover > .inner-text {
-    animation: colorgrow ease-in-out 0.5s backwards 1,
+  animation: colorgrow ease-in-out 0.5s backwards 1,
     textgrow 0.4s ease-in-out 0.1s forwards 1;
 }
 
-.inner-box > .inner-text, .inner-box > .inner-text > a {
-    animation: colorshrink 0.5s ease-in-out 0.2s forwards 1,
+.inner-box > .inner-text,
+.inner-box > .inner-text > a {
+  animation: colorshrink 0.5s ease-in-out 0.2s forwards 1,
     textshrink 0.55s ease-in-out 0.2s backwards 1;
 }
 
 @keyframes colorgrow {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes colorshrink {
-    from {opacity: 1;}
-    to {opacity: 0}
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
-
 
 /* Desktop */
 @media only screen and (min-width: 600px) {
-    .inner-box {
-        max-width: 400px;
-    }
+  .inner-box {
+    max-width: 400px;
+  }
 
-    .invisible-box {
-        width: 400px;
-        height: 10px;
-        margin: 20px;
-    }
+  .invisible-box {
+    width: 400px;
+    height: 10px;
+    margin: 20px;
+  }
 
-    .inner-box > .mobile {
-        display: none;
-    }
+  .inner-box > .mobile {
+    display: none;
+  }
 
-    .inner-box > .desktop {
-        display: block;
-    }
-
-
-
+  .inner-box > .desktop {
+    display: block;
+  }
 }
