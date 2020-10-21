@@ -7,7 +7,7 @@ body {
   margin: 0;
 }
 
-.box {
+.project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, 440px);
   width: 95vw;
@@ -16,23 +16,40 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(235, 235, 235);
-  background-image: url(asfalt.png);
+}
+
+.inner-box-wrapper {
+  overflow: hidden;
+  height: 400px;
+  margin: 20px;
+  box-shadow: 2px 2px 6px rgb(168, 168, 168), 4px 4px 8px rgb(192, 192, 192),
+    -2px 2px 6px rgb(168, 168, 168), -4px 4px 8px rgb(204, 204, 204);
 }
 
 .inner-box {
-  height: 400px;
   width: 100%;
   max-width: 400px;
-  margin: 20px;
   background-color: rgba(7, 27, 63, 0.918);
-  box-shadow: 2px 2px 6px rgb(168, 168, 168), 4px 4px 8px rgb(192, 192, 192),
-    -2px 2px 6px rgb(168, 168, 168), -4px 4px 8px rgb(204, 204, 204);
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: transform 0.5s ease-in-out;
+  -moz-transition: transform 0.5s ease-in-out;
+  -ms-transition: transform 0.5s ease-in-out;
+  -o-transition: transform 0.5s ease-in-out;
+}
+
+.inner-box:hover {
+  transform: translateY(-300px);
+  -webkit-transform: translateY(-300px);
+  -moz-transform: translateY(-300px);
+  -ms-transform: translateY(-300px);
+  -o-transform: translateY(-300px);
+
 }
 
 .inner-top {
   background-color: rgba(128, 126, 126, 0.589);
   width: 100%;
-  height: 75%;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +58,7 @@ body {
 .inner-bottom {
   background-color: rgba(157, 105, 194, 0.7);
   width: 100%;
-  height: 25%;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,27 +73,26 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 0%;
 }
 
 .inner-paragraph {
-  height: 66.67%;
+  height: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-size: 1.3em;
   padding: 20px;
+  background-color: rgb(34, 71, 172);
 }
 
 .inner-link {
-  height: 33.33%;
+  height: 100px;
   width: 100%;
   margin: 0;
 }
 
 .inner-link > a {
-  background-color: lightcoral;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -87,7 +103,7 @@ body {
 }
 
 .inner-link > a > div {
-  background-color: rgb(22, 255, 177);
+  background-color: rgb(160, 32, 0);
   height: 100%;
   justify-content: center;
   align-items: center;
@@ -96,112 +112,11 @@ body {
 
 .inner-link > a > div:hover {
   color: white;
-  background-color: rgb(119, 255, 248);
-  box-shadow: 5px 5px 10px teal;
+  background-color:rgb(224, 45, 0);
 }
 
 .inner-top > img {
-  width: 98%;
-  height: 98%;
-}
-
-/* change picture div size */
-.inner-box:hover > .inner-top {
-  animation: shrink ease-in-out 0.5s forwards 1;
-}
-
-.inner-box > .inner-top {
-  animation: grow ease-in-out 0.5s backwards 1;
-  animation-delay: 0.25s;
-}
-
-@keyframes shrink {
-  from {
-    height: 75%;
-    opacity: 1;
-  }
-  to {
-    height: 0%;
-    opacity: 0;
-  }
-}
-
-@keyframes grow {
-  from {
-    height: 0%;
-    opacity: 0;
-  }
-  to {
-    height: 75%;
-    opacity: 1;
-  }
-}
-
-@keyframes textgrow {
-  from {
-    height: 0%;
-  }
-  to {
-    height: 75%;
-  }
-}
-
-@keyframes textshrink {
-  from {
-    height: 75%;
-  }
-  to {
-    height: 0%;
-  }
-}
-
-/* change p color and a color + size for initially hidden div*/
-.inner-box:hover > .inner-text {
-  animation: colorgrow ease-in-out 0.5s backwards 1,
-    textgrow 0.4s ease-in-out 0.1s forwards 1;
-}
-
-.inner-box > .inner-text,
-.inner-box > .inner-text > a {
-  animation: colorshrink 0.5s ease-in-out 0.2s forwards 1,
-    textshrink 0.55s ease-in-out 0.2s backwards 1;
-}
-
-@keyframes colorgrow {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes colorshrink {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
-/* Desktop */
-@media only screen and (min-width: 600px) {
-  .inner-box {
-    max-width: 400px;
-  }
-
-  .invisible-box {
-    width: 400px;
-    height: 10px;
-    margin: 20px;
-  }
-
-  .inner-box > .mobile {
-    display: none;
-  }
-
-  .inner-box > .desktop {
-    display: block;
-  }
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 }
