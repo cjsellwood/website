@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.6"
+  },
+  "name": "website",
+  "description": "Website",
+  "version": "1.0.0",
+  "main": "generator.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "node generator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjsellwood/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjsellwood/website/issues"
+  },
+  "homepage": "https://github.com/cjsellwood/website#readme"
+}

@@ -1,0 +1,226 @@
+{
+  "projects": [
+    {
+      "name": "Paper Scissors Rock",
+      "description": "A simple game of paper scissors rock with a basic UI",
+      "live": "https://cjsellwood.github.io/paper_scissors_rock/",
+      "github": "https://github.com/cjsellwood/paper_scissors_rock"
+    },
+    {
+      "name": "Etch-a-Sketch",
+      "description": "A pad that can be drawn on by moving mouse, with different color modes available.",
+      "live": "https://cjsellwood.github.io/Etch-a-Sketch/",
+      "github": "https://github.com/cjsellwood/Etch-a-Sketch"
+    },
+    {
+      "name": "Clock",
+      "description": "A simple clock with a responsive design. Includes multiple settings",
+      "live": "https://cjsellwood.github.io/clock/",
+      "github": "https://github.com/cjsellwood/clock"
+    },
+    {
+      "name": "Classic Calculator",
+      "description": "A responsive calculator with buttons and keyboard input support",
+      "live": "https://cjsellwood.github.io/calculator/",
+      "github": "https://github.com/cjsellwood/calculator"
+    },
+    {
+      "name": "Library",
+      "description": "A library for keeping track of read books with local storage support",
+      "live": "https://cjsellwood.github.io/library/",
+      "github": "https://github.com/cjsellwood/library"
+    },
+    {
+      "name": "Tic Tac Toe",
+      "description": "A game of Tic Tac Toe for two people to play",
+      "live": "https://cjsellwood.github.io/Tic_Tac_Toe/",
+      "github": "https://github.com/cjsellwood/Tic_Tac_Toe"
+    },
+    {
+      "name": "Ball Bounce",
+      "description": "A site to bounce as many balls as desired inside the browser",
+      "live": "https://cjsellwood.github.io/ball_bounce",
+      "github": "https://github.com/cjsellwood/ball_bounce"
+    },
+    {
+      "name": "Restaurant",
+      "description": "A website for a restaurant with nav bar tabs to switch displayed information",
+      "live": "https://cjsellwood.github.io/restaurant",
+      "github": "https://github.com/cjsellwood/restaurant"
+    },
+    {
+      "name": "Todo List",
+      "description": "A Todo list with support for separate projects. Todo notes can be added, edited or deleted",
+      "live": "https://cjsellwood.github.io/Todo",
+      "github": "https://github.com/cjsellwood/Todo"
+    },
+    {
+      "name": "Library React",
+      "description": "A library to keep track of the books you've read. Made with React.",
+      "live": "https://cjsellwood.github.io/library_react",
+      "github": "https://github.com/cjsellwood/library_react"
+    },
+    {
+      "name": "Weather",
+      "description": "Obtains the weather for a desired location using an api",
+      "live": "https://cjsellwood.github.io/weather",
+      "github": "https://github.com/cjsellwood/weather"
+    },
+    {
+      "name": "Battleship",
+      "description": "A game of battleship against a computer opponent",
+      "live": "https://cjsellwood.github.io/battleship",
+      "github": "https://github.com/cjsellwood/battleship"
+    },
+    {
+      "name": "Color Visualiser",
+      "description": "A tool for visualising colour combinations and the contrast of text colours",
+      "live": "https://cjsellwood.github.io/color_visualiser",
+      "github": "https://github.com/cjsellwood/color_visualiser"
+    },
+    {
+      "name": "Where's Wally",
+      "description": "A game of Where's Wally which has the goal of finding all specified by clicking on them",
+      "live": "https://cjsellwood.github.io/wheres_wally",
+      "github": "https://github.com/cjsellwood/wheres_wally"
+    },
+    {
+      "name": "Youtube Clone",
+      "description": "A recreation of a youtube page with just html and css.",
+      "live": "https://cjsellwood.github.io/youtube_clone",
+      "github": "https://github.com/cjsellwood/youtube_clone"
+    },
+    {
+      "name": "Sign Up Form",
+      "description": "A recreation of the sign up form from mint.com with html and css.",
+      "live": "https://cjsellwood.github.io/sign_up_form",
+      "github": "https://github.com/cjsellwood/sign_up_form"
+    },
+    {
+      "name": "Article Clone",
+      "description": "A recreation of an article made with html and css.",
+      "live": "https://cjsellwood.github.io/article_clone",
+      "github": "https://github.com/cjsellwood/article_clone"
+    },
+    {
+      "name": "Apple Home Clone",
+      "description": "A recreation of an old apple homepage to practice styling of backgrounds with html and css.",
+      "live": "https://cjsellwood.github.io/apple_clone",
+      "github": "https://github.com/cjsellwood/apple_clone"
+    },
+    {
+      "name": "Responsive Site",
+      "description": "A project to practice building with responsive design by cloning The Next Web homepage.",
+      "live": "https://cjsellwood.github.io/responsive_design",
+      "github": "https://github.com/cjsellwood/response_design"
+    },
+    {
+      "name": "Newsweek Clone",
+      "description": "A recreation of the Newsweek homepage using bootstrap",
+      "live": "https://cjsellwood.github.io/newsweek_clone",
+      "github": "https://github.com/cjsellwood/newsweek_clone"
+    },
+    {
+      "name": "Odin Clone",
+      "description": "A recreation of the Odin Project homepage using a custom css framework",
+      "live": "https://cjsellwood.github.io/odin_clone",
+      "github": "https://github.com/cjsellwood/odin_clone"
+    },
+    {
+      "name": "Image Filter",
+      "description": "A tool to apply different filters and styles to an uploaded image.",
+      "live": "https://cjsellwood.github.io/image_filter",
+      "github": "https://github.com/cjsellwood/image_filter"
+    },
+    {
+      "name": "CV Project",
+      "description": "A website to create a CV from a template.",
+      "live": "https://cjsellwood.github.io/cv_project",
+      "github": "https://github.com/cjsellwood/cv_project"
+    },
+    {
+      "name": "Shopping Cart",
+      "description": "A shopping cart application made with react and react router.",
+      "live": "https://cjsellwood.github.io/shopping-cart",
+      "github": "https://github.com/cjsellwood/shopping-cart"
+    },
+    {
+      "name": "Recipes",
+      "description": "A recipe manager made with react, router, redux and firebase.",
+      "live": "https://cjsellwood.github.io/recipes",
+      "github": "https://github.com/cjsellwood/recipes"
+    },
+    {
+      "name": "Mini Message Board",
+      "description": "A simple message board made with express.",
+      "live": "https://aqueous-peak-40391.herokuapp.com/",
+      "github": "https://github.com/cjsellwood/mini_message_board"
+    },
+    {
+      "name": "Local Library",
+      "description": "A library manager made with express and mongodb.",
+      "live": "https://serene-ocean-49201.herokuapp.com/catalog",
+      "github": "https://github.com/cjsellwood/local_library_express"
+    },
+    {
+      "name": "Fresh Foods",
+      "description": "A grocery store made with express and mongodb.",
+      "live": "https://whispering-depths-15067.herokuapp.com/products",
+      "github": "https://github.com/cjsellwood/inventory_app"
+    },
+    {
+      "name": "YelpCamp",
+      "description": "A campground finder made with express, mongodb and bootstrap",
+      "live": "https://ancient-reef-99853.herokuapp.com/",
+      "github": "https://github.com/cjsellwood/YelpCamp"
+    },
+    {
+      "name": "Members Only",
+      "description": "A forum where you can register and see the messages, but only see the author and date if you are a member",
+      "live": "https://vast-plateau-87806.herokuapp.com/",
+      "github": "https://github.com/cjsellwood/members_only"
+    },
+    {
+      "name": "Blog View",
+      "description": "A site for viewing a blog, served by api with express backend",
+      "live": "https://cjsellwood.github.io/blog_view",
+      "github": "https://github.com/cjsellwood/blog_view"
+    },
+    {
+      "name": "Blog Edit",
+      "description": "Site for author of blog to add new posts, edit posts or delete them. Secured with jwt",
+      "live": "https://cjsellwood.github.io/blog_edit/",
+      "github": "https://github.com/cjsellwood/blog_edit"
+    },
+    {
+      "name": "Odin Book",
+      "description": "A social media site made where users can connect with their friends. Posts can be created with images and text. The user can like or comment on their friends posts.",
+      "live": "https://odinbook-306823.ts.r.appspot.com/",
+      "github": "https://github.com/cjsellwood/odin_book"
+    },
+    {
+      "name": "Stock Trader",
+      "description": "A site that allows user to mock trade US stocks. Stocks can be bought from a list of the top shares or by searching for a companies symbol.",
+      "live": "https://cjsellwood.github.io/stock_trader",
+      "github": "https://github.com/cjsellwood/stock_trader"
+    },
+    {
+      "name": "2048",
+      "description": "A clone of the game 2048 made with react. Can be played with on-screen buttons or keyboard.",
+      "live": "https://cjsellwood.github.io/2048/",
+      "github": "https://github.com/cjsellwood/2048"
+    },
+    {
+      "name": "Sayit",
+      "description": "A forum inspired by reddit. React and redux are used for the front-end, express and postgreSQL for the back-end.",
+      "live": "https://cjsellwood.github.io/sayit/",
+      "github": "https://github.com/cjsellwood/sayit"
+    },
+    {
+      "name": "Minesweeper",
+      "description": "A game of minesweeper with a persistent high score board. Created following the principles of test driven development.",
+      "live": "https://cjsellwood.github.io/minesweeper/",
+      "github": "https://github.com/cjsellwood/minesweeper"
+    }
+  ]
+}

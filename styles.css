@@ -1,7 +1,3 @@
-* {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 body {
   background-color: rgb(235, 235, 235);
   margin: 0;
@@ -19,6 +15,7 @@ body {
 }
 
 .inner-box-wrapper {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   overflow: hidden;
   height: 400px;
   margin: 20px;
@@ -43,7 +40,6 @@ body {
   -moz-transform: translateY(-300px);
   -ms-transform: translateY(-300px);
   -o-transform: translateY(-300px);
-
 }
 
 .inner-top {
@@ -117,11 +113,113 @@ body {
 
 .inner-link > a > div:hover {
   color: white;
-  background-color:rgb(171, 77, 238);
+  background-color: rgb(171, 77, 238);
 }
 
 .inner-top > img {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+}
+
+.project-container {
+  margin: 20px;
+  box-shadow: 2px 2px 6px rgb(168, 168, 168), 4px 4px 8px rgb(192, 192, 192),
+    -2px 2px 6px rgb(168, 168, 168), -4px 4px 8px rgb(204, 204, 204);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.project-text {
+  padding: 12px;
+}
+
+.project-text > .project-title {
+  margin: 0;
+  padding: 8px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+.project-description {
+  color: rgb(26, 26, 26);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  padding: 0 6px;
+  font-size: 14px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-description p {
+  margin: 0;
+}
+
+.project-image {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.project-image > img {
+  width: 100%;
+  max-height: 100%;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8px;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: rgb(0, 33, 218);
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  width: 150px;
+  justify-content: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.project-links a svg {
+  width: 24px;
+  height: 24px;
+}
+
+.project-links p {
+  display: block;
+  margin: 0;
+  margin-left: 8px;
+}
+
+.project-links a:first-child {
+  color: rgb(255, 0, 64);
+}
+
+.project-links a:hover {
+  background-color: rgba(0, 33, 218, 0.212);
+}
+
+.project-links a:first-child:hover {
+  background-color: rgba(255, 0, 64, 0.212);
 }
