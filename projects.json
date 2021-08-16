@@ -103,7 +103,7 @@
       "github": "https://github.com/cjsellwood/article_clone"
     },
     {
-      "name": "Apple Home Clone",
+      "name": "Apple Clone",
       "description": "A recreation of an old apple homepage to practice styling of backgrounds with html and css.",
       "live": "https://cjsellwood.github.io/apple_clone",
       "github": "https://github.com/cjsellwood/apple_clone"
@@ -112,7 +112,7 @@
       "name": "Responsive Site",
       "description": "A project to practice building with responsive design by cloning The Next Web homepage.",
       "live": "https://cjsellwood.github.io/responsive_design",
-      "github": "https://github.com/cjsellwood/response_design"
+      "github": "https://github.com/cjsellwood/responsive_design"
     },
     {
       "name": "Newsweek Clone",
@@ -139,6 +139,12 @@
       "github": "https://github.com/cjsellwood/cv_project"
     },
     {
+      "name": "Memory Game",
+      "description": "A game made in react where you aim to choose the most consecutive unique animals.",
+      "live": "https://cjsellwood.github.io/memory_game/",
+      "github": "https://github.com/cjsellwood/memory_game"
+    },
+    {
       "name": "Shopping Cart",
       "description": "A shopping cart application made with react and react router.",
       "live": "https://cjsellwood.github.io/shopping-cart",
@@ -151,22 +157,10 @@
       "github": "https://github.com/cjsellwood/recipes"
     },
     {
-      "name": "Mini Message Board",
-      "description": "A simple message board made with express.",
-      "live": "https://aqueous-peak-40391.herokuapp.com/",
-      "github": "https://github.com/cjsellwood/mini_message_board"
-    },
-    {
-      "name": "Local Library",
-      "description": "A library manager made with express and mongodb.",
-      "live": "https://serene-ocean-49201.herokuapp.com/catalog",
-      "github": "https://github.com/cjsellwood/local_library_express"
-    },
-    {
       "name": "Fresh Foods",
       "description": "A grocery store made with express and mongodb.",
       "live": "https://whispering-depths-15067.herokuapp.com/products",
-      "github": "https://github.com/cjsellwood/inventory_app"
+      "github": "https://github.com/cjsellwood/fresh_foods"
     },
     {
       "name": "YelpCamp",
