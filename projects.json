@@ -215,6 +215,18 @@
       "description": "A game of minesweeper with a persistent high score board. Created following the principles of test driven development.",
       "live": "https://cjsellwood.github.io/minesweeper/",
       "github": "https://github.com/cjsellwood/minesweeper"
+    },
+    {
+      "name": "Planner",
+      "description": "An app split into sections containing notes, reminders, timer and stopwatch. Made with expo and react native. Production build created for android in an apk file.",
+      "live": "https://github.com/cjsellwood/planner/blob/master/build/planner-70f216231f5d4471a0bcaa169c0789aa-signed.apk",
+      "github": "https://github.com/cjsellwood/planner"
+    },
+    {
+      "name": "Snake",
+      "description": "A game of snake made with typescript and OOP principles.",
+      "live": "https://cjsellwood.github.io/snake/",
+      "github": "https://github.com/cjsellwood/snake"
     }
   ]
 }
