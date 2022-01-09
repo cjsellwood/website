@@ -230,7 +230,7 @@
     },
     {
       "name": "Paint",
-      "description": "A desktop paint app. Contains multiple selectable tools and customisable colours",
+      "description": "A desktop paint app. Contains multiple selectable tools and customisable colours. Created with React, Redux and Typescript",
       "live": "https://cjsellwood.github.io/paint",
       "github": "https://github.com/cjsellwood/paint"
     }
