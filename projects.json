@@ -227,6 +227,12 @@
       "description": "A game of snake made with typescript and OOP principles.",
       "live": "https://cjsellwood.github.io/snake/",
       "github": "https://github.com/cjsellwood/snake"
+    },
+    {
+      "name": "Paint",
+      "description": "A desktop paint app. Contains multiple selectable tools and customisable colours",
+      "live": "https://cjsellwood.github.io/paint",
+      "github": "https://github.com/cjsellwood/paint"
     }
   ]
 }
