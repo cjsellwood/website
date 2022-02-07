@@ -233,6 +233,11 @@
       "description": "A desktop paint app. Contains multiple selectable tools and customisable colours. Created with React, Redux and Typescript",
       "live": "https://cjsellwood.github.io/paint",
       "github": "https://github.com/cjsellwood/paint"
+    }, {
+      "name": "Spider",
+      "description": "A game of spider solitaire created in react with sound, animations and persistent statistics.",
+      "live": "https://cjsellwood.github.io/spider",
+      "github": "https://github.com/cjsellwood/spider"
     }
   ]
 }
