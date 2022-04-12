@@ -164,25 +164,25 @@
     },
     {
       "name": "YelpCamp",
-      "description": "A campground finder made with express, mongodb and bootstrap",
+      "description": "A campground finder made with express, mongodb and bootstrap.",
       "live": "https://ancient-reef-99853.herokuapp.com/",
       "github": "https://github.com/cjsellwood/YelpCamp"
     },
     {
       "name": "Members Only",
-      "description": "A forum where you can register and see the messages, but only see the author and date if you are a member",
+      "description": "A forum where you can register and see the messages, but only see the author and date if you are a member.",
       "live": "https://vast-plateau-87806.herokuapp.com/",
       "github": "https://github.com/cjsellwood/members_only"
     },
     {
       "name": "Blog View",
-      "description": "A site for viewing a blog, served by api with express backend",
+      "description": "A site for viewing a blog, served by api with express backend.",
       "live": "https://cjsellwood.github.io/blog_view",
       "github": "https://github.com/cjsellwood/blog_view"
     },
     {
       "name": "Blog Edit",
-      "description": "Site for author of blog to add new posts, edit posts or delete them. Secured with jwt",
+      "description": "Site for author of blog to add new posts, edit posts or delete them. Secured with jwt.",
       "live": "https://cjsellwood.github.io/blog_edit/",
       "github": "https://github.com/cjsellwood/blog_edit"
     },
@@ -230,14 +230,21 @@
     },
     {
       "name": "Paint",
-      "description": "A desktop paint app. Contains multiple selectable tools and customisable colours. Created with React, Redux and Typescript",
+      "description": "A desktop paint app. Contains multiple selectable tools and customisable colours. Created with React, Redux and Typescript.",
       "live": "https://cjsellwood.github.io/paint",
       "github": "https://github.com/cjsellwood/paint"
-    }, {
+    },
+    {
       "name": "Spider",
       "description": "A game of spider solitaire created in react with sound, animations and persistent statistics.",
       "live": "https://cjsellwood.github.io/spider",
       "github": "https://github.com/cjsellwood/spider"
+    },
+    {
+      "name": "The Nexus",
+      "description": "A fullstack online marketplace made with react, redux, typescript, express and postgresql. Thoroughly tested with unit, integration and end to end tests.",
+      "live": "https://cjsellwood.github.io/the_nexus",
+      "github": "https://github.com/cjsellwood/the_nexus"
     }
   ]
 }
